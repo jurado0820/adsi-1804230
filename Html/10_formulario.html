@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario HTML</title>
+</head>
+<body>
+	<form action="" method="post">
+		<fieldset>
+			<!--Datos personales-->
+			<legend><h4>Datos Personales</h4></legend>
+			<label for="nombre">Nombre Completo:</label>
+				<input type="text" id="Nombre">
+				<br>
+				<br>
+			<label for="Genero">Genero:</label>
+			<select id="Genero">
+				<option value="">Seleccione...</option>
+				<option value="F">Femenino</option>
+				<option value="M">Masculino</option>
+			</select>
+			<br>
+			<br>
+			<label for="">Contraseña:</label>
+			<input type="password" id="Clave">
+			<br>
+			<br>
+			<label for="Descripcion">Descripcion:</label>
+			<br>
+			<br>
+			<textarea id="Descripcion" cols="30" rows="10"></textarea>
+		</fieldset>
+		<!--Datos institucionales-->
+		<fieldset>
+			<legend>
+				<h4>Datos institucionales</h4>
+			</legend>
+			Seleccione Titulacion
+			<br>
+			<br>
+            <label>
+	            <input type="radio" name="Titulacion"> TGO Motores Diesel
+            </label>
+            <br>
+			<label>
+				<input type="radio" name="Titulacion"> TGO ADSI
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="Titulacion"> TGO Desarrollo Grafico
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="Titulacion"> TGO Soldadura
+			</label>
+			<br>
+			<br>
+			Seleccione transversales favoritas:
+			<br>
+			<label>
+				<input type="checkbox" name="Transver"> Ingles
+			</label>
+			<br>
+			<label>
+				<input type="checkbox" name="Transver"> Matematicas
+			</label>
+			<br>
+			<label>
+				<input type="checkbox" name="Transver"> Cultura Fisica
+			</label>
+			<br>
+			<label>
+				<input type="checkbox" name="Transver"> Etica
+			</label>
+			
+
+			<br>
+			<br>
+			<label for="Foto"></label>
+			<input type="file" id="Foto" accept="image/*">
+			<br>
+			<br>
+			<input type="submit" value="ENVIAR DATOS">
+			<input type="reset" value="LIMPIAR DATOS">
+		</fieldset>
+	</form>
+</body>
+</html>
