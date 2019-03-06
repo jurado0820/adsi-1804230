@@ -5,11 +5,51 @@
 	<title>Elementos de Entrada HTML5</title>
 </head>
 <body>
-	<h4>Color: </h4>
+	<form action="" method="post">
+	<!----- Color ----->
+	<h4>Color:</h4>
 	<input type="Color">
-	<h4>Fecha</h4>
+	<!----- Fecha ----->
+	<h4>Fecha:</h4>
 	<input type="Date">
+	<!----- Email ------>
+	<h4>Email:</h4>
+	<input type="Email" placeholder="Correo Electronico"required>
+	<!----- Mes -------->
+	<h4>Mes:</h4>
+	<input type="Month">
+	<!----- Numero -------->
+	<h4>Numero:</h4>
+	<input type="Number" min="18" max="90">
+	<!----- Rango -------->
+	<h4>Rango::</h4>
+	<input type="range" step="5" oninput="orango.value = this.value">
+	<output id="orango"></output>
+	<!----- Buscar -------->
+	<h4>Buscar:</h4>
+	<input type="Search">
+	<!----- Tiempo -------->
+	<h4>Tiempo:</h4>
+	<input type="Time">
+	<!----- URL -------->
+	<h4>URL:</h4>
+	<input type="URL">
+	<!----- Semana -------->
+	<h4>Seman:</h4>
+	<input type="Week">
+	<!----- Lista -------->
+	<h4>Lista</h4>
+    <input list="lenguajes">
+    <detalist id="lenguajes">
+    	<option value="python">Python</option>
+    	<option value="ruby">Ruby</option>
+    	<option value="c#">C sharp</option>
+    	<option value="php">PHP</option>
+    </detalist>	
+	<br>
+	<button type="submit">Validar</button>
+	</form>
 </body>
-</html>
+</html>                                                                                                                                                                            
 
 
